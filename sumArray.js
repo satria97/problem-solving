@@ -71,17 +71,3 @@ function simpleArraySum(ar) {
 
 }
 console.log(simpleArraySum([1,2,3,4,10,11]));
-
-// function main() {
-//     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
-
-//     const arCount = parseInt(readLine().trim(), 10);
-
-//     const ar = readLine().replace(/\s+$/g, '').split(' ').map(arTemp => parseInt(arTemp, 10));
-
-//     const result = simpleArraySum(ar);
-
-//     ws.write(result + '\n');
-
-//     ws.end();
-// }
