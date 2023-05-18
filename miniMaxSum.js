@@ -52,7 +52,6 @@
  */
 
 function miniMaxSum(arr) {
-  // Write your code here
   let sum = arr.reduce((a, b) => { // Use reduce and add all elements to the array
       return a + b;
   });

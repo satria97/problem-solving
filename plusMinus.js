@@ -60,7 +60,6 @@
  */
 
 function plusMinus(arr) {
-  // Write your code here
   let arrLength = arr.length;
   let arrPos = [];
   let arrNeg = [];
@@ -78,5 +77,4 @@ function plusMinus(arr) {
   console.log((arrNeg.length /arrLength).toFixed(6));
   console.log((arrZero.length /arrLength).toFixed(6));
 }
-
 plusMinus([-4,3,-9,0,4,1]);
